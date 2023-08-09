@@ -6,19 +6,13 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Tạo Form Liên Hệ </title>
 </head>
-
-
 <body>
 <h1>Liên hệ</h1>
 <form method=”POST” action=”#”>
     <label for="fullname">Họ và tên:</label>
     <input type="text" id="fullname" name="fullname"><br>
- 
- 
     <label for="email">Email:</label>
     <input type="email" id="email" name="email"><br>
- 
- 
     <label for="phone">Số điện thoại:</label>
     <input type="tel" id="phone" name="phone"><br>
     <label for="subject">Chủ đề:</label>
@@ -30,12 +24,8 @@
     </select><br>
     <label for="message">Nội dung:</label>
     <textarea id="message" name="message" rows="5"></textarea><br>
- 
- 
     <input type="checkbox" id="newsletter" name="newsletter" value="yes">
     <label for="newsletter">Nhận thông tin từ chúng tôi</label><br>
- 
- 
     <input type="submit" value="Gửi">
 </form>
 </body>
