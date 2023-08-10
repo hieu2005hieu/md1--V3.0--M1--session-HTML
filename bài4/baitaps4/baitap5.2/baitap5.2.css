@@ -1,0 +1,39 @@
+.card {
+    border: 1px solid black;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .card-content {
+    padding: 10px;
+  }
+  h2 {
+    margin: 0;
+  }
+  span {
+    display: block;
+    margin-top: 10px;
+  }
+  button {
+    padding: 5px 10px;
+    background-color: rgb(28, 138, 188);
+    color: white;
+  }
+  td {
+    margin-top: 20px;
+  }
+  footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+  }
+footer>span{
+  padding-top: 30px;
+
+}
+img {
+    width: 130px;
+}
