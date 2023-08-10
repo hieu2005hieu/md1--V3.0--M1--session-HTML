@@ -1,0 +1,25 @@
+.size {
+    font-size: 50px;
+    color: white;
+    background-color: slategray;
+    width: 20%;
+    text-align: center;
+    margin: auto
+    
+    
+}
+.h1 {
+    font-size: 50px;
+    text-align: center;
+}
+a {
+    color: dodgerblue;
+}
+p {
+    text-align: center;
+
+}
+.for {
+    text-align: center;
+}
+
