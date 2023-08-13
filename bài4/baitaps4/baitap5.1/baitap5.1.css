@@ -1,57 +1,57 @@
 
-      header {
-        height: 100px;
-        background-color: #252525;
-        color: white;
-      }
-      span {
-        margin-right: auto;
-        padding-left: 40px;
-        font-size: 40px;
-      }
-      .nav {
-        padding-top: 40px;
-        width: 100%;
-      }
-      .nav1 {
-        display: flex;
-      }
-      li {
-        margin-top: 20px;
-        display: inline-block;
-      }
-      ul {
-        margin: 0;
-        padding-right: 40px;
-      }
-      li a {
-        font-size: 20px;
-        color: white;
-        text-decoration: none;
-      }
-      input {
-        width: 200px;
-      }
-      select {
-        width: 207px;
-      }
-      label {
-        display: block;
-        padding: 5px 0;
-      }
-      button {
-        margin-top: 10px;
-      }
-      main {
-        display: flex;
-        justify-content: center;
-      }
-      .form-center {
-        display: flex;
-        justify-content: center;
-      }
-      button {
-        padding: 5px 10px;
-        background-color: #252525;
-        color: azure;
-      }
+header {
+   height: 100px;
+   background-color: black;
+   color: white;
+ }
+span {
+   margin-right: auto;
+   padding-left: 40px;
+   font-size: 40px;
+}
+.nav {
+   padding-top: 40px;
+   width: 100%;
+}
+.nav1 {
+   display: flex;
+}
+li {
+   margin-top: 20px;
+   display: inline-block;
+}
+ul {
+   margin: 0;
+   padding-right: 40px;
+}
+li a {
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+}
+input {
+   width: 200px;
+}
+select {
+   width: 200px;
+}
+label {
+   display: block;
+   padding: 5px 0;
+}
+button {
+   margin-top: 10px;
+}
+main {
+   display: flex;
+   justify-content: center;
+}
+.form-center {
+   display: flex;
+   justify-content: center;
+}
+button {
+   padding: 5px 10px;
+   background-color:black;
+   color: azure;
+}

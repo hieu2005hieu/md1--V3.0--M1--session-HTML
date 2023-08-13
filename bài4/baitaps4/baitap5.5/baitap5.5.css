@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .item {
+    border-bottom: 2px solid rgb(197, 194, 194);
+    padding: 5px;
+    margin: 10px 0 20px;
+  }
+  .item-and-price {
+    display: flex;
+    justify-content: space-between;
+  }
+  .item-and-price p {
+    margin: 0;
+  }
+  .price {
+    font-weight: bold;
+    color: black;
+  }
+  .container {
+    border: 2px solid rgb(238, 233, 233);
+  }
+  .servers {
+    border-bottom: none;
+  }
+  p {
+    margin: 10px 0 !important;
+  }

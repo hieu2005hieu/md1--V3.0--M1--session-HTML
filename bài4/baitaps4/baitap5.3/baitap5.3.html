@@ -4,53 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      img {
-        width: 100px;
-        padding: 10px 20px;
-        border: 1px solid wheat;
-        border-radius: 10px;
-        margin-left: 20px;
-      }
-      .card1 {
-        margin-top: 20px;
-        margin-bottom: 40px;
-      }
-      .card1 label {
-        font-size: 20px;
-      }
-      input {
-        font-size: 40px;
-        border-radius: 10px;
-        border: 1px solid blueviolet;
-        margin-top: 10px;
-      }
-      .cvc {
-        width: 70px;
-        margin-left: 50px;
-      }
-      button {
-        background-color: rgb(49, 108, 255);
-        color: white;
-        padding: 10px 50px;
-        border: none;
-        border-radius: 20px;
-        margin-top: 20px;
-      }
-    </style>
+    <link rel="stylesheet" href="baitap5.3.css">    
   </head>
   <body>
     <section>
       <h2>Select Card</h2>
+    <div>
       <div>
-        <div>
-          <img src="./imgs/atm.svg" alt="" /><img
-            src="./imgs/atm.svg"
-            alt=""
-          /><img src="./imgs/atm.svg" alt="" /><img
-            src="./imgs/atm.svg"
-            alt=""
-          /><img src="./imgs/atm.svg" alt="" />
+    <img src="../../../audio/ảnh/26_Grey_PayPal_Pill_Button.png" alt="" /><img
+      src="../../../audio/ảnh/th.jpg"alt=""/>
+      <img src="../../../audio/ảnh/th.jpg" alt="" />
+      <img src="../../../audio/ảnh/th (1).jpg" alt=""/>
+      
         </div>
       </div>
       <hr />
@@ -59,18 +24,18 @@
         <input type="number" />
       </div>
       <div class="card">
-        <table>
-          <tr>
-            <td><label for="">Expiry Date</label></td>
-            <td><label for="" class="cvc">CVC/CVV</label></td>
+    <table>
+     <tr>
+          <td><label for="">Expiry Date</label></td>
+         <td><label for="" class="cvc">CVC/CVV</label></td>
+     </tr>
+      <tr>
+     <td><input type="date" /></td>
+    <td><input type="number" class="cvc" /></td>
           </tr>
-          <tr>
-            <td><input type="date" /></td>
-            <td><input type="number" class="cvc" /></td>
-          </tr>
-        </table>
+   </table>
       </div>
       <button>Save</button>
-    </section>
-  </body>
+  </section>
+</body>
 </html>
