@@ -1,0 +1,16 @@
+
+ul {
+    color: white;
+    width: 3px;
+    background-color: blue;
+    transition: all;
+    transition-duration: 3s;
+    margin-left: 10px;
+    height: 200px;
+}
+span:hover +ul {
+    width: 200px;
+}
+li {
+    padding:25px;
+}

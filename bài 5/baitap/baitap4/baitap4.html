@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*  */
+    .clock{
+        width: 200px;
+        height: 200px;
+        background-color: #dbdbdb;
+        margin: 0 auto;
+        display: flex;
+         align-items: center;
+        justify-content: center;
+    }
+    .circle{
+        background-color: #000;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        position: relative;
+    }
+    span{
+        position: absolute;
+        background-color: #fff;
+        width: 5px;
+        height: 60px;
+        left: 48%;
+        animation: rotate 1s linear infinite;
+        transform-origin: 50% 100% ;
+    }
+    @keyframes rotate{
+        0% {
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+</style>
+<body>
+    <div class="clock">
+            <div class="circle">
+                <span>  </span>
+            </div>
+    </div>
+</body>
+</html>
