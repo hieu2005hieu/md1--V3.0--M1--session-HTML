@@ -1,0 +1,15 @@
+.master {
+    background-color:rgb(58, 164, 216);
+    width: 500px;
+    height: 200px;
+}
+p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+.master:hover {
+    opacity: 0.8;  
+    background-color: rebeccapurple;
+}

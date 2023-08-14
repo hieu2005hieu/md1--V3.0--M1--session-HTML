@@ -14,3 +14,21 @@
     position: absolute;
     border-radius: 20px;
 }
+.material-symbols-outlined{
+    margin-top: 60px;
+}
+.right-arrow{
+    position: relative;
+    bottom: 90px;
+     margin-left: 300px;
+}
+.center {
+    position: relative;
+    top: -100px;
+    margin-left: 140px;
+}
+h1 {
+    position: relative;
+    top: -230px;
+    margin-left: 145px;
+}
