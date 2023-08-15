@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 100px 2fr 1fr;
+        grid-template-rows: 100px 200px 300px;
+
+    }
+    .grid-items{
+        background-color: red;
+        border: 1px solid black;
+    }
+    .items4 {
+       grid-row-start: 2 ;
+        grid-row-end: 4 ;
+
+    }
+    .items1 {
+        grid-column: 1/4;
+    }
+</style>
+<body>
+    <!--
+        grid : giống như hệ thống lưới
+    -->
+    <div class="container">
+        <div class="grid-items 1">1</div>
+        <div class="grid-items">2</div>
+        <div class="grid-items">3</div>
+        <div class="grid-items items 4">4</div>
+        <div class="grid-items items 5">5</div>
+
+    </div>
+</body>
+</html>

@@ -11,4 +11,11 @@ h1 {
   gap: 15px;
   flex-wrap: wrap;
 }
+@media only screen and (max-width:600) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
 

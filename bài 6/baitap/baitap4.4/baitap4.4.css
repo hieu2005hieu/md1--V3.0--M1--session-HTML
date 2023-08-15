@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "section article"
+        "section aside "
+        "section sign"
+        "footer sign";
+    grid-template-columns: 500px 250px 250px 200px;
+    grid-template-rows: 200px 250px 100px 100px 100px;
+
+}
+
+.header {
+    grid-area: header;
+    
+}
+
+.section {
+    grid-area: section;
+   
+}
+
+.article {
+    grid-area: article;
+
+}
+
+.aside {
+    grid-area: aside;
+  
+}
+
+.footer {
+    grid-area: footer;
+    
+
+}
+
+.sign {
+    grid-area: sign;
+   background-color: brown;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+button {
+    position: relative;
+    top: 140px;
+    left: 80px;
+
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    position: relative;
+    bottom: 200px;
+}
+.text2{
+    position: relative;
+    bottom: 50px;
+}
+.text3{
+    position: relative;
+    bottom: 250px;
+}
+.text4{
+    position: relative;
+    bottom: 100px;
+}
+.text5{
+    position: relative;
+    bottom: 70px;
+}

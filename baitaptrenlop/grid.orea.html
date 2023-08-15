@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+   <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .container{
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "section article article"
+        "section aside aside"
+        "footer footer footer";
+        grid-template-columns: 500px 500px 500px 500px ;
+        grid-template-rows: 100px 100px 100px 100px;
+
+    }
+    .header{
+        grid-area: header;
+        background-color: blue
+    }
+    .section{
+        grid-area: section ;
+        background-color: red
+    }    
+    .article{
+        grid-area: article ;
+        background-color: yellow
+    }
+
+    .footer{
+        grid-area: footer  ;
+        background-color: blueviolet;
+    }
+    .aside{
+        grid-area: aside ;
+        background-color: coral;
+    }
+        
+   </style>
+
+<body>
+    <div class="container">
+        <div class="header">
+           đầu
+        </div>
+        <div class="section">
+            thân 
+        </div>
+        <div class="article">
+            thân  
+        </div>
+        <div class="aside">
+            thân
+        </div>
+        <div class="footer">
+           cuối
+        </div>
+    </div>
+    
+</body>
+</html>
