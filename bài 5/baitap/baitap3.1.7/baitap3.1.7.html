@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .style-hover {
+        background-color: aquamarine;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+      }
+      .grow {
+        margin: 0 auto;
+        background-color: rgb(74, 136, 202);
+        width: 300px;
+        height: 300px;
+        transition: transform 1s ease;
+      }
+      .border {
+        width: 280px;
+        height: 280px;
+      }
+      .border:hover {
+        border: 10px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="style-hover">
+      <div class="grow"><div class="border"></div></div>
+    </div>
+  </body>
+</html>

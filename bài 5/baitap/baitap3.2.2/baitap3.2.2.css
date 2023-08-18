@@ -1,0 +1,29 @@
+.card {
+    background-image: url(./anh\ \ 4.jpeg);
+    width: 900px;
+    height: 900px;
+    border-radius: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-position: cover;
+    color: #e8e8e8;
+  }
+  .card__content {
+    position: absolute;
+    bottom: 10px;
+    font-size: 40px;
+  }
+  .card__button {
+    position: absolute;
+    left: 60px;
+    top: 75px;
+  }
+  button {
+    font-size: 40px;
+    padding: 9px 20px;
+    border-radius: 10px;
+    color: #e9e9e9;
+    background-color: rgb(132, 7, 7);
+    border: none;
+  }

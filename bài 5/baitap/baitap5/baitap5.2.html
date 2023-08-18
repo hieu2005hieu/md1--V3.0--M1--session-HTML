@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  <style>
+    .navbar {
+  position: relative;
+  display: inline-block;
+}
+.navbar__icon--open:active + .navbar__icon--close {
+  left: 0;
+}
+.navbar__icon--open {
+    background-color: rgb(142, 108, 108);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+}
+.navbar__icon--close {
+  position: absolute;
+  top: 30px;
+  left: -200px;
+  width: 200px;
+  background-color: rgb(237, 237, 237);
+  transition: all;
+  transition-duration: 2s;
+}
+
+li {
+  list-style: none;
+  padding: 8px 5px;
+}
+i {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+  </style>
+    <script
+      src="https://kit.fontawesome.com/a1c6005be6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar__icon--open">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </div>
+      <div class="navbar__icon--close">
+        <i class="fa-solid fa-xmark fa-2x"></i>
+        <ul class="navbar__close--dropdown">
+          <li>Home</li>
+          <li>About</li>
+          <li>info</li>
+          <li>Contact</li>
+          <li>show me more</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

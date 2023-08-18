@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .style-hover {
+        background-color: rgb(33, 88, 70);
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+      }
+      .grow {
+        margin: 0 auto;
+        background-color: rgb(186, 106, 106);
+        width: 300px;
+        height: 300px;
+
+        transition: transform 1s ease;
+      }
+      .grow:hover {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="style-hover">
+      <div class="grow">Grow</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.card {
+    background-image: url(./anh\ \ 3.jpeg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 600px;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .card__content {
+    position: absolute;
+    bottom: 0;
+    color: #ffff;
+  }
+  .card__content--centerblock {
+    font-size: 20px;
+  
+  }

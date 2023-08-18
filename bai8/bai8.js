@@ -1,0 +1,5 @@
+console.log("wellcom to Rikkei Academy")
+prompt("Moi ban nhap tuoi cua minh")
+alert("chao mung ban den vowi rekkei akademy")
+document.write("quyet tam hoc lap trinh javarscrip")
+confirm("ban da du 18 tuoi chua")
